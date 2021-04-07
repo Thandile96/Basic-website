@@ -1,0 +1,217 @@
+
+body, html {
+    background-color: darkseagreen;
+    width: auto;
+    height: auto;
+    
+}
+
+.personal-information {
+    display: flex;
+    /*background-color: blueviolet;*/
+}
+
+.aa {
+    width: 100%;
+
+}
+
+.which-city {
+    padding: 1em;
+
+}
+
+.foreign-language thead td {
+    font-weight: bolder;
+    background-color: azure; 
+    
+    
+}
+/* .foreign-language { 
+    background-color: lightseagreen;
+   
+} */
+
+.table, th, td {
+    border: 1px solid blue;  
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+}
+.image1{
+    float: right;
+    /* height: 235px; */
+    /* overflow: auto; */
+    position: relative; right: 240px;
+    /* margin : 2em; */
+    display: block;
+}
+.name{
+    text-align: center;
+    width: 60%;
+    padding: 60px;
+}
+.image2 {
+    /* margin-right : 0.5em; */
+    float: left;
+    
+}
+.image3 {
+    float: right;
+    /* padding-bottom: 20px; */
+    /* width: 50%; */
+    
+}
+
+.image4 {
+    float: right;
+    /* padding-bottom: 25px; */
+    /* width: 50%; */
+  
+}
+.image5 {
+    float: right;
+    /* width: 50%; */
+}
+
+.text1 {
+    overflow: hidden;
+    float: left;
+    font-size: 14px;
+    width: 50%;
+    /* position: relative; top: -15px; */
+    text-align: justify;
+ }
+ .text2 {
+    overflow: hidden;
+    float: left;
+    font-size: 14px;
+    width: 50%;
+    /* position: relative; top: -15px; */
+    text-align: justify;
+ }
+ .text3 {
+    overflow: hidden;
+    float: left;
+    font-size: 14px;
+    width: 50%;
+    /* position: relative; top: -15px; */
+    text-align: justify;
+ }
+
+
+.Cpt-historic-places { 
+    float: left;  
+    width: 100%;
+    background-color: lightcoral;
+    padding-top: 0px;
+
+    }
+    .city_hall {
+        width: 33.33%;
+        float: left;
+    }
+   .castle {
+    width: 33.33%;
+    float: left;
+   }
+  .slave {
+    width: 33.33%;
+    float: left;
+  }
+
+ 
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+ }
+
+h3 {
+    text-align: center;
+    padding-left: 15px;
+
+}
+
+@media(max-width: 790px) { 
+    .personal-information .clearfix{
+      display: inline-block; 
+      width: 100%;
+  }
+  .image1 {
+      /* display:inline-block; */
+      width: 33.33%;
+      /* height: 220px; */
+      position: relative; top: 20px;
+      position: relative; left: -60px;
+  }
+  .name {
+      position: relative; top: -10px;
+      position: relative; left: -60px;
+  }
+}
+@media(max-width: 790px) {
+    table {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media(max-width: 790px) {
+    .aa .which-city { 
+        text-align: justify;
+        display: block;
+        width: 95%;
+        position: relative; right: 14px;
+    }
+
+ }
+
+@media(max-width: 790px) {
+    .Cpt-historic-places {
+     width: 100%;
+     display: inline-block;
+    }
+    .city_hall {
+        width: 100%;
+    }
+    .castle {
+        width: 100%;
+    }
+    .image4{
+        float: left;
+    }
+    .slave {
+        width: 100%;
+    }
+}
+@media(min-width: 800px) {
+    .Cpt-historic-places {
+        width: 100%;
+        display: float;
+       }
+       .city_hall {
+           width: 33.3%;
+       }
+       .castle {
+           width: 33.3%;
+       }
+       .slave {
+           width: 33.3%;
+       }
+   }
+}
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
